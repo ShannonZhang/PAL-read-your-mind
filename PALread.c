@@ -69,20 +69,18 @@ int main(){
 		puts(p);
 		printf("请输入1（是）或0（不是）\n");
 		scanf("%d",&choice);
-		if((choice==1)||(choice==0)){
-			switch(choice){
-				case 1:{
-					q = q*2+1;
-					r = r+pow(2,7-m);
-					break; 
-				}
-				case 0:{
-					q = q*2;
-					break; 
-				}
-			default:boom(); 
-			}		
-		}
+		switch(choice){
+			case 1:{
+				q = q*2+1;
+				r = r+pow(2,7-m);
+				break; 
+			}
+			case 0:{
+				q = q*2;
+				break; 
+			}
+		default:boom(); 
+		}		
 	}
 	
 	printf("下面是见证奇迹的时刻，我猜你想的是：\n");
