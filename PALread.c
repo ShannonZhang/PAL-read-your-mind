@@ -3,7 +3,8 @@
 #include <math.h>
 #include <string.h>
 
-/*仙剑读心术2.0版 by Shannon Zhang
+/*
+  仙剑读心术2.0版 by Shannon Zhang
   共128个人物
   程序设计完工日期2016-02-05
   问题设计完工日期2016-02-?? 
@@ -12,8 +13,7 @@
   问题位置：Question.txt 
 */
 
-void boom()
-{
+void boom(){
 	printf("都说了别瞎按，你咋就不听呢\n");
 	printf("读心术选择爆炸，BOOM！\n");
 	system("pause");
